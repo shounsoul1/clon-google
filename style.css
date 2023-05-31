@@ -18,10 +18,14 @@
     height: 6%; 
     justify-content: end;
     padding: 6px;
+    
 }
 .i-i{
+    display: flex;
     width:7%;
     height: 100%;   
+    justify-content: space-evenly;
+    align-items: center;
 }
 .g-i{
     display: flex;
@@ -30,6 +34,9 @@
     justify-content: space-evenly;
     align-items: center;
 }
+.g-c{
+    color: white;
+}
 .size{
     text-decoration: none;
 }
@@ -37,17 +44,32 @@
 main{
     width: 100%;
     height: 80%;
+    background-color: #051442;
 }
 .square_google{
     display: flex;
     width: 100%;
     height:35%;
     justify-content: space-around;
-    align-items: center;
+    align-items: end;
+    background-color: rgb(14, 82, 82);  
 }
+
 .square_barra{
+    display: flex;
     height: 30%;
     width: 100%;
+    background-color: brown;
+    justify-content: center;
+}
+.barra_busqueda{
+    display: flex;
+    width: 40%;
+    height:30%;
+    border: 1px solid #5f6368;
+    border-radius:24px;
+    background-color: #202124;
+    justify-content: space-around;
 }
 
 .square4{
